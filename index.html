@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Kelas 12 - Sistem Manajemen Siswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 Sistem Manajemen Siswa</h1>
+            <p>Project Kelas 12 - Aplikasi untuk mengelola data siswa</p>
+        </header>
+
+        <main>
+            <section class="input-section">
+                <h2>Tambah Data Siswa</h2>
+                <form id="studentForm">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="class">Kelas:</label>
+                        <select id="class" name="class" required>
+                            <option value="">Pilih Kelas</option>
+                            <option value="12 IPA 1">12 IPA 1</option>
+                            <option value="12 IPA 2">12 IPA 2</option>
+                            <option value="12 IPS 1">12 IPS 1</option>
+                            <option value="12 IPS 2">12 IPS 2</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="nisn">NISN:</label>
+                        <input type="text" id="nisn" name="nisn" required pattern="[0-9]{10}" 
+                               title="NISN harus 10 digit angka">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">No. Telepon:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    
+                    <button type="submit" id="submitBtn">Tambah Siswa</button>
+                    <button type="button" id="cancelBtn" style="display: none;">Batal Edit</button>
+                </form>
+            </section>
+
+            <section class="search-section">
+                <h2>Cari Siswa</h2>
+                <div class="search-controls">
+                    <input type="text" id="searchInput" placeholder="Cari berdasarkan nama, kelas, atau NISN...">
+                    <button id="clearSearch">Clear</button>
+                </div>
+            </section>
+
+            <section class="display-section">
+                <h2>Daftar Siswa</h2>
+                <div class="stats">
+                    <span id="totalStudents">Total Siswa: 0</span>
+                    <button id="exportBtn">Export Data</button>
+                    <button id="clearAllBtn">Hapus Semua Data</button>
+                </div>
+                <div id="studentList" class="student-grid">
+                    <p class="no-data">Belum ada data siswa. Silakan tambahkan data siswa baru.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Project Kelas 12 - Dibuat dengan HTML, CSS, dan JavaScript</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
