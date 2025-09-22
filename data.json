@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop ASUS ROG",
+    "category": "Electronics",
+    "price": 15000000,
+    "description": "Gaming laptop with high performance",
+    "brand": "ASUS",
+    "stock": 5
+  },
+  {
+    "id": 2,
+    "name": "Smartphone Samsung Galaxy",
+    "category": "Electronics",
+    "price": 8000000,
+    "description": "Latest smartphone with advanced camera",
+    "brand": "Samsung",
+    "stock": 10
+  },
+  {
+    "id": 3,
+    "name": "Sepatu Nike Air Max",
+    "category": "Fashion",
+    "price": 1500000,
+    "description": "Comfortable running shoes",
+    "brand": "Nike",
+    "stock": 20
+  },
+  {
+    "id": 4,
+    "name": "Buku Programming PHP",
+    "category": "Books",
+    "price": 250000,
+    "description": "Complete guide to PHP programming",
+    "brand": "Tech Books",
+    "stock": 15
+  },
+  {
+    "id": 5,
+    "name": "Mouse Gaming Logitech",
+    "category": "Electronics",
+    "price": 500000,
+    "description": "High precision gaming mouse",
+    "brand": "Logitech",
+    "stock": 25
+  },
+  {
+    "id": 6,
+    "name": "Jaket Denim",
+    "category": "Fashion",
+    "price": 350000,
+    "description": "Stylish denim jacket for casual wear",
+    "brand": "Local Brand",
+    "stock": 8
+  },
+  {
+    "id": 7,
+    "name": "Headphone Sony",
+    "category": "Electronics",
+    "price": 1200000,
+    "description": "Noise-cancelling wireless headphones",
+    "brand": "Sony",
+    "stock": 12
+  },
+  {
+    "id": 8,
+    "name": "Novel Laskar Pelangi",
+    "category": "Books",
+    "price": 85000,
+    "description": "Indonesian bestselling novel",
+    "brand": "Mizan",
+    "stock": 30
+  }
+]
